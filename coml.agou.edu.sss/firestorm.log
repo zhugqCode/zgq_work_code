@@ -1,0 +1,94 @@
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : address
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : phone
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.lagou.edu.pojo.Resume)
+    - Returns
+       - EntityReturnImpl(entity=com.lagou.edu.pojo.Resume, querySpaceUid=<gen:0>, path=com.lagou.edu.pojo.Resume)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.lagou.edu.pojo.Resume)
+          - SQL table alias mapping - resume0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG localhost-startStop-1 org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.lagou.edu.pojo.Resume [PESSIMISTIC_READ]: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=? lock in share mode
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@53c60615]
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : address
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : phone
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.lagou.edu.pojo.Resume)
+    - Returns
+       - EntityReturnImpl(entity=com.lagou.edu.pojo.Resume, querySpaceUid=<gen:0>, path=com.lagou.edu.pojo.Resume)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.lagou.edu.pojo.Resume)
+          - SQL table alias mapping - resume0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG localhost-startStop-1 org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.lagou.edu.pojo.Resume [PESSIMISTIC_WRITE]: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=? for update
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@22391d8]
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : address
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : phone
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.lagou.edu.pojo.Resume)
+    - Returns
+       - EntityReturnImpl(entity=com.lagou.edu.pojo.Resume, querySpaceUid=<gen:0>, path=com.lagou.edu.pojo.Resume)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.lagou.edu.pojo.Resume)
+          - SQL table alias mapping - resume0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG localhost-startStop-1 org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.lagou.edu.pojo.Resume [PESSIMISTIC_FORCE_INCREMENT]: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=? for update
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2abecd7]
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : address
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : phone
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.lagou.edu.pojo.Resume)
+    - Returns
+       - EntityReturnImpl(entity=com.lagou.edu.pojo.Resume, querySpaceUid=<gen:0>, path=com.lagou.edu.pojo.Resume)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.lagou.edu.pojo.Resume)
+          - SQL table alias mapping - resume0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG localhost-startStop-1 org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.lagou.edu.pojo.Resume [OPTIMISTIC]: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=?
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@747ff3ef]
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : address
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : name
+DEBUG localhost-startStop-1 org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : phone
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG localhost-startStop-1 org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.lagou.edu.pojo.Resume)
+    - Returns
+       - EntityReturnImpl(entity=com.lagou.edu.pojo.Resume, querySpaceUid=<gen:0>, path=com.lagou.edu.pojo.Resume)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.lagou.edu.pojo.Resume)
+          - SQL table alias mapping - resume0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG localhost-startStop-1 org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.lagou.edu.pojo.Resume [OPTIMISTIC_FORCE_INCREMENT]: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=?
+DEBUG localhost-startStop-1 org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.lagou.edu.pojo.Resume: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=?
+DEBUG localhost-startStop-1 org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.lagou.edu.pojo.Resume: select resume0_.id as id1_0_0_, resume0_.address as address2_0_0_, resume0_.name as name3_0_0_, resume0_.phone as phone4_0_0_ from tb_resume resume0_ where resume0_.id=?
+DEBUG localhost-startStop-1 org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+DEBUG localhost-startStop-1 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+DEBUG localhost-startStop-1 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+DEBUG localhost-startStop-1 org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+DEBUG localhost-startStop-1 org.hibernate.internal.NamedQueryRepository - Checking 0 named HQL queries
+DEBUG localhost-startStop-1 org.hibernate.internal.NamedQueryRepository - Checking 0 named SQL queries
+DEBUG localhost-startStop-1 org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@98eb2c5
+DEBUG localhost-startStop-1 org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: 52a736f1-551e-4578-83ce-815cda5fa907 (<unnamed>)
+DEBUG localhost-startStop-1 org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+DEBUG localhost-startStop-1 org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator - No actions specified; doing nothing
+DEBUG localhost-startStop-1 org.hibernate.jpa.internal.EntityManagerFactoryRegistry - Initializing EntityManagerFactoryRegistry : org.hibernate.jpa.internal.EntityManagerFactoryRegistry@2de066f1
+DEBUG localhost-startStop-1 org.hibernate.jpa.internal.EntityManagerFactoryRegistry - Registering EntityManagerFactory: default 
+DEBUG localhost-startStop-1 org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
